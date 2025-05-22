@@ -1,12 +1,12 @@
-Fitter Status : Successful - Tue May 20 22:04:12 2025
+Fitter Status : Successful - Thu May 22 02:06:38 2025
 Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Lite Edition
 Revision Name : Basic_Organ_Solution
 Top-level Entity Name : Basic_Organ_Solution
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 2,623 / 32,070 ( 8 % )
-Total registers : 5562
+Logic utilization (in ALMs) : 2,664 / 32,070 ( 8 % )
+Total registers : 5554
 Total pins : 147 / 457 ( 32 % )
 Total virtual pins : 0
 Total block memory bits : 55,552 / 4,065,280 ( 1 % )
