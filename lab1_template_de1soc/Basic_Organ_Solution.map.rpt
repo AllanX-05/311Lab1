@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Basic_Organ_Solution
-Thu May 22 02:04:00 2025
+Thu May 22 16:37:03 2025
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
 
 
@@ -86,7 +86,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu May 22 02:04:00 2025       ;
+; Analysis & Synthesis Status     ; Successful - Thu May 22 16:37:03 2025       ;
 ; Quartus Prime Version           ; 16.1.2 Build 203 01/18/2017 SJ Lite Edition ;
 ; Revision Name                   ; Basic_Organ_Solution                        ;
 ; Top-level Entity Name           ; Basic_Organ_Solution                        ;
@@ -199,7 +199,7 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 12          ;
+; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -210,11 +210,7 @@ agreement for further details.
 ;     Processor 2            ;   0.0%      ;
 ;     Processor 3            ;   0.0%      ;
 ;     Processor 4            ;   0.0%      ;
-;     Processor 5            ;   0.0%      ;
-;     Processor 6            ;   0.0%      ;
-;     Processor 7            ;   0.0%      ;
-;     Processor 8            ;   0.0%      ;
-;     Processors 9-12        ;   0.0%      ;
+;     Processors 5-12        ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -223,19 +219,19 @@ agreement for further details.
 +--------------------------------------------------------------------+-----------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------------------+-------------+
 ; File Name with User-Entered Path                                   ; Used in Netlist ; File Type                                    ; File Name with Absolute Path                                                                                    ; Library     ;
 +--------------------------------------------------------------------+-----------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------------------+-------------+
-; SevenSegmentDisplayDecoder.qxp                                     ; yes             ; User File                                    ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp                                     ;             ;
-; speed_reg_control.qxp                                              ; yes             ; User File                                    ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/speed_reg_control.qxp                                              ;             ;
-; var_clk_div32.qxp                                                  ; yes             ; User File                                    ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp                                                  ;             ;
-; to_slow_clk_interface.qxp                                          ; yes             ; User File                                    ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp                                          ;             ;
-; LCD_Scope_Encapsulated_pacoblaze.qxp                               ; yes             ; User File                                    ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LCD_Scope_Encapsulated_pacoblaze.qxp                               ;             ;
-; audio_controller.qxp                                               ; yes             ; User File                                    ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/audio_controller.qxp                                               ;             ;
-; async_trap_and_reset_gen_1_pulse.qxp                               ; yes             ; User File                                    ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/async_trap_and_reset_gen_1_pulse.qxp                               ;             ;
-; Basic_Organ_Solution.v                                             ; yes             ; User Verilog HDL File                        ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v                                             ;             ;
-; NDivider.sv                                                        ; yes             ; User SystemVerilog HDL File                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/NDivider.sv                                                        ;             ;
-; doublesync.v                                                       ; yes             ; Auto-Found Verilog HDL File                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/doublesync.v                                                       ;             ;
-; generate_arbitrary_divided_clk32.v                                 ; yes             ; Auto-Found Verilog HDL File                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/generate_arbitrary_divided_clk32.v                                 ;             ;
-; scope_capture.v                                                    ; yes             ; Auto-Found Verilog HDL File                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/scope_capture.v                                                    ;             ;
-; lcd_scope_encapsulated_pacoblaze_wrapper.v                         ; yes             ; Auto-Found Verilog HDL File                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v                         ;             ;
+; SevenSegmentDisplayDecoder.qxp                                     ; yes             ; User File                                    ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp                                     ;             ;
+; speed_reg_control.qxp                                              ; yes             ; User File                                    ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/speed_reg_control.qxp                                              ;             ;
+; var_clk_div32.qxp                                                  ; yes             ; User File                                    ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp                                                  ;             ;
+; to_slow_clk_interface.qxp                                          ; yes             ; User File                                    ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp                                          ;             ;
+; LCD_Scope_Encapsulated_pacoblaze.qxp                               ; yes             ; User File                                    ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LCD_Scope_Encapsulated_pacoblaze.qxp                               ;             ;
+; audio_controller.qxp                                               ; yes             ; User File                                    ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/audio_controller.qxp                                               ;             ;
+; async_trap_and_reset_gen_1_pulse.qxp                               ; yes             ; User File                                    ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/async_trap_and_reset_gen_1_pulse.qxp                               ;             ;
+; Basic_Organ_Solution.v                                             ; yes             ; User Verilog HDL File                        ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v                                             ;             ;
+; NDivider.sv                                                        ; yes             ; User SystemVerilog HDL File                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/NDivider.sv                                                        ;             ;
+; doublesync.v                                                       ; yes             ; Auto-Found Verilog HDL File                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/doublesync.v                                                       ;             ;
+; generate_arbitrary_divided_clk32.v                                 ; yes             ; Auto-Found Verilog HDL File                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/generate_arbitrary_divided_clk32.v                                 ;             ;
+; scope_capture.v                                                    ; yes             ; Auto-Found Verilog HDL File                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/scope_capture.v                                                    ;             ;
+; lcd_scope_encapsulated_pacoblaze_wrapper.v                         ; yes             ; Auto-Found Verilog HDL File                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v                         ;             ;
 ; sld_signaltap.vhd                                                  ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/sld_signaltap.vhd                                        ;             ;
 ; sld_signaltap_impl.vhd                                             ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/sld_signaltap_impl.vhd                                   ;             ;
 ; sld_ela_control.vhd                                                ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/sld_ela_control.vhd                                      ;             ;
@@ -254,7 +250,7 @@ agreement for further details.
 ; altrom.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altrom.inc                                               ;             ;
 ; altram.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altram.inc                                               ;             ;
 ; altdpram.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altdpram.inc                                             ;             ;
-; db/altsyncram_uee4.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/altsyncram_uee4.tdf                                             ;             ;
+; db/altsyncram_uee4.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/altsyncram_uee4.tdf                                             ;             ;
 ; altdpram.tdf                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altdpram.tdf                                             ;             ;
 ; memmodes.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/others/maxplus2/memmodes.inc                                           ;             ;
 ; a_hdffe.inc                                                        ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/a_hdffe.inc                                              ;             ;
@@ -264,33 +260,33 @@ agreement for further details.
 ; muxlut.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/muxlut.inc                                               ;             ;
 ; bypassff.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/bypassff.inc                                             ;             ;
 ; altshift.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altshift.inc                                             ;             ;
-; db/mux_elc.tdf                                                     ; yes             ; Auto-Generated Megafunction                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/mux_elc.tdf                                                     ;             ;
+; db/mux_elc.tdf                                                     ; yes             ; Auto-Generated Megafunction                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/mux_elc.tdf                                                     ;             ;
 ; lpm_decode.tdf                                                     ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/lpm_decode.tdf                                           ;             ;
 ; declut.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/declut.inc                                               ;             ;
 ; lpm_compare.inc                                                    ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/lpm_compare.inc                                          ;             ;
-; db/decode_vnf.tdf                                                  ; yes             ; Auto-Generated Megafunction                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/decode_vnf.tdf                                                  ;             ;
+; db/decode_vnf.tdf                                                  ; yes             ; Auto-Generated Megafunction                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/decode_vnf.tdf                                                  ;             ;
 ; lpm_counter.tdf                                                    ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/lpm_counter.tdf                                          ;             ;
 ; lpm_add_sub.inc                                                    ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                          ;             ;
 ; cmpconst.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/cmpconst.inc                                             ;             ;
 ; lpm_counter.inc                                                    ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/lpm_counter.inc                                          ;             ;
 ; alt_counter_stratix.inc                                            ; yes             ; Megafunction                                 ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/alt_counter_stratix.inc                                  ;             ;
-; db/cntr_qai.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_qai.tdf                                                    ;             ;
-; db/cmpr_h9c.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_h9c.tdf                                                    ;             ;
-; db/cntr_4vi.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_4vi.tdf                                                    ;             ;
-; db/cntr_09i.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_09i.tdf                                                    ;             ;
-; db/cmpr_c9c.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_c9c.tdf                                                    ;             ;
-; db/cntr_kri.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_kri.tdf                                                    ;             ;
-; db/cmpr_99c.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_99c.tdf                                                    ;             ;
+; db/cntr_qai.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_qai.tdf                                                    ;             ;
+; db/cmpr_h9c.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_h9c.tdf                                                    ;             ;
+; db/cntr_4vi.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_4vi.tdf                                                    ;             ;
+; db/cntr_09i.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_09i.tdf                                                    ;             ;
+; db/cmpr_c9c.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_c9c.tdf                                                    ;             ;
+; db/cntr_kri.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_kri.tdf                                                    ;             ;
+; db/cmpr_99c.tdf                                                    ; yes             ; Auto-Generated Megafunction                  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_99c.tdf                                                    ;             ;
 ; sld_rom_sr.vhd                                                     ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/sld_rom_sr.vhd                                           ;             ;
 ; sld_jtag_endpoint_adapter.vhd                                      ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd                            ;             ;
 ; sld_jtag_endpoint_adapter_impl.sv                                  ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter_impl.sv                        ;             ;
 ; sld_hub.vhd                                                        ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/sld_hub.vhd                                              ; altera_sld  ;
-; db/ip/sld59a4f0a5/alt_sld_fab.v                                    ; yes             ; Encrypted Auto-Found Verilog HDL File        ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/alt_sld_fab.v                                    ; alt_sld_fab ;
-; db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab.v             ; yes             ; Encrypted Auto-Found Verilog HDL File        ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab.v             ; alt_sld_fab ;
-; db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; yes             ; Auto-Found SystemVerilog HDL File            ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; alt_sld_fab ;
-; db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; alt_sld_fab ;
-; db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; yes             ; Encrypted Auto-Found VHDL File               ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; alt_sld_fab ;
-; db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; alt_sld_fab ;
+; db/ip/sld59a4f0a5/alt_sld_fab.v                                    ; yes             ; Encrypted Auto-Found Verilog HDL File        ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/alt_sld_fab.v                                    ; alt_sld_fab ;
+; db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab.v             ; yes             ; Encrypted Auto-Found Verilog HDL File        ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab.v             ; alt_sld_fab ;
+; db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; yes             ; Auto-Found SystemVerilog HDL File            ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_ident.sv      ; alt_sld_fab ;
+; db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_presplit.sv   ; alt_sld_fab ;
+; db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; yes             ; Encrypted Auto-Found VHDL File               ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; alt_sld_fab ;
+; db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; alt_sld_fab ;
 ; sld_jtag_hub.vhd                                                   ; yes             ; Encrypted Megafunction                       ; c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                         ;             ;
 ; ALTERA_lcdscp2.hex.mif                                             ; yes             ; Auto-Found Memory Initialization File        ; ALTERA_lcdscp2.hex.mif                                                                                          ;             ;
 +--------------------------------------------------------------------+-----------------+----------------------------------------------+-----------------------------------------------------------------------------------------------------------------+-------------+
@@ -3293,7 +3289,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -3924,82 +3920,178 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
-    Info: Processing started: Thu May 22 02:03:36 2025
+    Info: Processing started: Thu May 22 16:35:41 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Basic_Organ_Solution -c Basic_Organ_Solution
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file sevensegmentdisplaydecoder.qxp
-    Info (12023): Found entity 1: SevenSegmentDisplayDecoder File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
+    Info (12023): Found entity 1: SevenSegmentDisplayDecoder File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
 Info (12021): Found 1 design units, including 1 entities, in source file speed_reg_control.qxp
-    Info (12023): Found entity 1: speed_reg_control File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/speed_reg_control.qxp Line: -1
+    Info (12023): Found entity 1: speed_reg_control File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/speed_reg_control.qxp Line: -1
 Info (12021): Found 1 design units, including 1 entities, in source file var_clk_div32.qxp
-    Info (12023): Found entity 1: var_clk_div32 File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
+    Info (12023): Found entity 1: var_clk_div32 File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
 Info (12021): Found 1 design units, including 1 entities, in source file to_slow_clk_interface.qxp
-    Info (12023): Found entity 1: to_slow_clk_interface File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (12023): Found entity 1: to_slow_clk_interface File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
 Info (12021): Found 1 design units, including 1 entities, in source file lcd_scope_encapsulated_pacoblaze.qxp
-    Info (12023): Found entity 1: LCD_Scope_Encapsulated_pacoblaze File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LCD_Scope_Encapsulated_pacoblaze.qxp Line: -1
+    Info (12023): Found entity 1: LCD_Scope_Encapsulated_pacoblaze File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LCD_Scope_Encapsulated_pacoblaze.qxp Line: -1
 Info (12021): Found 1 design units, including 1 entities, in source file audio_controller.qxp
-    Info (12023): Found entity 1: audio_controller File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/audio_controller.qxp Line: -1
+    Info (12023): Found entity 1: audio_controller File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/audio_controller.qxp Line: -1
 Info (12021): Found 1 design units, including 1 entities, in source file async_trap_and_reset_gen_1_pulse.qxp
-    Info (12023): Found entity 1: async_trap_and_reset_gen_1_pulse File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/async_trap_and_reset_gen_1_pulse.qxp Line: -1
-Warning (10238): Verilog Module Declaration warning at Basic_Organ_Solution.v(40): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "Basic_Organ_Solution" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 40
+    Info (12023): Found entity 1: async_trap_and_reset_gen_1_pulse File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/async_trap_and_reset_gen_1_pulse.qxp Line: -1
+Warning (10238): Verilog Module Declaration warning at Basic_Organ_Solution.v(40): ignored anonymous port(s) indicated by duplicate or dangling comma(s) in the port list for module "Basic_Organ_Solution" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file basic_organ_solution.v
-    Info (12023): Found entity 1: Basic_Organ_Solution File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 2
+    Info (12023): Found entity 1: Basic_Organ_Solution File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file ndivider.sv
-    Info (12023): Found entity 1: NDivider File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/NDivider.sv Line: 1
+    Info (12023): Found entity 1: NDivider File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/NDivider.sv Line: 1
 Info (12127): Elaborating entity "Basic_Organ_Solution" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(427): truncated value with size 32 to match size of target (16) File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 427
-Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(485): truncated value with size 32 to match size of target (16) File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 485
-Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(500): truncated value with size 8 to match size of target (7) File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 500
-Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(501): truncated value with size 8 to match size of target (7) File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 501
-Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(502): truncated value with size 8 to match size of target (7) File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 502
-Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(503): truncated value with size 8 to match size of target (7) File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 503
-Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(504): truncated value with size 8 to match size of target (7) File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 504
-Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(505): truncated value with size 8 to match size of target (7) File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 505
-Warning (10034): Output port "LEDR[9..8]" at Basic_Organ_Solution.v(50) has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 50
-Info (12128): Elaborating entity "NDivider" for hierarchy "NDivider:swDivider" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 206
+Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(427): truncated value with size 32 to match size of target (16) File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 427
+Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(485): truncated value with size 32 to match size of target (16) File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 485
+Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(500): truncated value with size 8 to match size of target (7) File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 500
+Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(501): truncated value with size 8 to match size of target (7) File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 501
+Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(502): truncated value with size 8 to match size of target (7) File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 502
+Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(503): truncated value with size 8 to match size of target (7) File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 503
+Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(504): truncated value with size 8 to match size of target (7) File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 504
+Warning (10230): Verilog HDL assignment warning at Basic_Organ_Solution.v(505): truncated value with size 8 to match size of target (7) File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 505
+Warning (10034): Output port "LEDR[9..8]" at Basic_Organ_Solution.v(50) has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 50
+Info (12128): Elaborating entity "NDivider" for hierarchy "NDivider:swDivider" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 206
 Warning (12125): Using design file doublesync.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: doublesync File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/doublesync.v Line: 1
-Info (12128): Elaborating entity "doublesync" for hierarchy "doublesync:user_scope_enable_sync1" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 263
+    Info (12023): Found entity 1: doublesync File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/doublesync.v Line: 1
+Info (12128): Elaborating entity "doublesync" for hierarchy "doublesync:user_scope_enable_sync1" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 263
 Warning (12125): Using design file generate_arbitrary_divided_clk32.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: Generate_Arbitrary_Divided_Clk32 File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/generate_arbitrary_divided_clk32.v Line: 2
-Info (12128): Elaborating entity "Generate_Arbitrary_Divided_Clk32" for hierarchy "Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 272
-Info (12128): Elaborating entity "var_clk_div32" for hierarchy "Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk|var_clk_div32:Div_Clk" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/generate_arbitrary_divided_clk32.v Line: 10
+    Info (12023): Found entity 1: Generate_Arbitrary_Divided_Clk32 File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/generate_arbitrary_divided_clk32.v Line: 2
+Info (12128): Elaborating entity "Generate_Arbitrary_Divided_Clk32" for hierarchy "Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 272
+Info (12128): Elaborating entity "var_clk_div32" for hierarchy "Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk|var_clk_div32:Div_Clk" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/generate_arbitrary_divided_clk32.v Line: 10
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
 Warning (12125): Using design file scope_capture.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: scope_capture File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/scope_capture.v Line: 1
-Info (12128): Elaborating entity "scope_capture" for hierarchy "scope_capture:LCD_scope_channelA" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 287
+    Info (12023): Found entity 1: scope_capture File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/scope_capture.v Line: 1
+Info (12128): Elaborating entity "scope_capture" for hierarchy "scope_capture:LCD_scope_channelA" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 287
 Warning (12125): Using design file lcd_scope_encapsulated_pacoblaze_wrapper.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: LCD_Scope_Encapsulated_pacoblaze_wrapper File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v Line: 1
-Info (12128): Elaborating entity "LCD_Scope_Encapsulated_pacoblaze_wrapper" for hierarchy "LCD_Scope_Encapsulated_pacoblaze_wrapper:LCD_LED_scope" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 366
-Info (12128): Elaborating entity "LCD_Scope_Encapsulated_pacoblaze" for hierarchy "LCD_Scope_Encapsulated_pacoblaze_wrapper:LCD_LED_scope|LCD_Scope_Encapsulated_pacoblaze:LCD_Scope_Encapsulated_pacoblaze_inst" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v Line: 60
-Info (12128): Elaborating entity "async_trap_and_reset_gen_1_pulse" for hierarchy "async_trap_and_reset_gen_1_pulse:make_speedup_pulse" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 444
-Info (12128): Elaborating entity "speed_reg_control" for hierarchy "speed_reg_control:speed_reg_control_inst" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 477
-Info (12128): Elaborating entity "SevenSegmentDisplayDecoder" for hierarchy "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst0" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 493
-Info (12128): Elaborating entity "to_slow_clk_interface" for hierarchy "to_slow_clk_interface:interface_actual_audio_data_right" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 555
-Info (12128): Elaborating entity "audio_controller" for hierarchy "audio_controller:audio_control" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 586
+    Info (12023): Found entity 1: LCD_Scope_Encapsulated_pacoblaze_wrapper File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v Line: 1
+Info (12128): Elaborating entity "LCD_Scope_Encapsulated_pacoblaze_wrapper" for hierarchy "LCD_Scope_Encapsulated_pacoblaze_wrapper:LCD_LED_scope" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 366
+Info (12128): Elaborating entity "LCD_Scope_Encapsulated_pacoblaze" for hierarchy "LCD_Scope_Encapsulated_pacoblaze_wrapper:LCD_LED_scope|LCD_Scope_Encapsulated_pacoblaze:LCD_Scope_Encapsulated_pacoblaze_inst" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/lcd_scope_encapsulated_pacoblaze_wrapper.v Line: 60
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
+Info (12128): Elaborating entity "async_trap_and_reset_gen_1_pulse" for hierarchy "async_trap_and_reset_gen_1_pulse:make_speedup_pulse" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 444
+Info (12128): Elaborating entity "speed_reg_control" for hierarchy "speed_reg_control:speed_reg_control_inst" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 477
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
+Info (12128): Elaborating entity "SevenSegmentDisplayDecoder" for hierarchy "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst0" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 493
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
+Info (12128): Elaborating entity "to_slow_clk_interface" for hierarchy "to_slow_clk_interface:interface_actual_audio_data_right" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 555
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
+Warning (137006): Ignored assignment TIMEQUEST2 -- assignment no longer supported
+Warning (137006): Ignored assignment OPTIMIZE_CORE_BLOCK_PROGRAMMABLE_CLOCK_DELAY -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_SHORT_PATHS -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_AWARE_OPTIMIZE_TIMING -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD -- assignment no longer supported
+Warning (137006): Ignored assignment HYPER_RETIMER_FAST_FORWARD_TARGET_MAX_PERFORMANCE -- assignment no longer supported
+Warning (137006): Ignored assignment FALLBACK_TO_EXTERNAL_FLASH -- assignment no longer supported
+Warning (137006): Ignored assignment IO_WEAK_PULL_UP_DURING_CONFIG -- assignment no longer supported
+Info (12128): Elaborating entity "audio_controller" for hierarchy "audio_controller:audio_control" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 586
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_uee4.tdf
-    Info (12023): Found entity 1: altsyncram_uee4 File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/altsyncram_uee4.tdf Line: 28
+    Info (12023): Found entity 1: altsyncram_uee4 File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/altsyncram_uee4.tdf Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_elc.tdf
-    Info (12023): Found entity 1: mux_elc File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/mux_elc.tdf Line: 23
+    Info (12023): Found entity 1: mux_elc File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/mux_elc.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_vnf.tdf
-    Info (12023): Found entity 1: decode_vnf File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/decode_vnf.tdf Line: 23
+    Info (12023): Found entity 1: decode_vnf File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/decode_vnf.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_qai.tdf
-    Info (12023): Found entity 1: cntr_qai File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_qai.tdf Line: 28
+    Info (12023): Found entity 1: cntr_qai File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_qai.tdf Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_h9c.tdf
-    Info (12023): Found entity 1: cmpr_h9c File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_h9c.tdf Line: 23
+    Info (12023): Found entity 1: cmpr_h9c File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_h9c.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_4vi.tdf
-    Info (12023): Found entity 1: cntr_4vi File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_4vi.tdf Line: 26
+    Info (12023): Found entity 1: cntr_4vi File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_4vi.tdf Line: 26
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_09i.tdf
-    Info (12023): Found entity 1: cntr_09i File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_09i.tdf Line: 28
+    Info (12023): Found entity 1: cntr_09i File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_09i.tdf Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_c9c.tdf
-    Info (12023): Found entity 1: cmpr_c9c File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_c9c.tdf Line: 23
+    Info (12023): Found entity 1: cmpr_c9c File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_c9c.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_kri.tdf
-    Info (12023): Found entity 1: cntr_kri File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_kri.tdf Line: 28
+    Info (12023): Found entity 1: cntr_kri File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cntr_kri.tdf Line: 28
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_99c.tdf
-    Info (12023): Found entity 1: cmpr_99c File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_99c.tdf Line: 23
+    Info (12023): Found entity 1: cmpr_99c File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/cmpr_99c.tdf Line: 23
 Info (12033): Analysis and Synthesis generated SignalTap II or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2025.05.22.02:03:50 Progress: Loading sld59a4f0a5/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2025.05.22.16:36:44 Progress: Loading sld59a4f0a5/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -4010,108 +4102,108 @@ Info (11172): Ident: "alt_sld_fab" instantiated altera_connection_identification
 Info (11172): Alt_sld_fab: Done "alt_sld_fab" with 6 modules, 6 files
 Info (11171): Finished IP generation for the debug fabric: alt_sld_fab.
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld59a4f0a5/alt_sld_fab.v
-    Info (12023): Found entity 1: alt_sld_fab File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/alt_sld_fab.v Line: 9
+    Info (12023): Found entity 1: alt_sld_fab File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/alt_sld_fab.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab.v
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab.v Line: 9
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_ident.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_ident File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_ident.sv Line: 33
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_ident File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_ident.sv Line: 33
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_presplit.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_presplit File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_presplit.sv Line: 3
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_presplit File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_presplit.sv Line: 3
 Info (12021): Found 2 design units, including 1 entities, in source file db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd
-    Info (12022): Found design unit 1: alt_sld_fab_alt_sld_fab_sldfabric-rtl File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 102
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
+    Info (12022): Found design unit 1: alt_sld_fab_alt_sld_fab_sldfabric-rtl File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 102
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_sldfabric File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_splitter.sv
-    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
+    Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/db/ip/sld59a4f0a5/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
 Warning (12240): Synthesis found one or more imported partitions that will be treated as black boxes for timing analysis during synthesis
 Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13039): The following bidirectional pins have no drivers
-    Warning (13040): bidirectional pin "GPIO_0[13]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[14]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[15]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[16]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[17]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[18]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[19]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[20]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[21]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[22]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[23]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[24]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[25]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[26]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[27]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[28]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[29]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[30]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[31]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[32]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[33]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[34]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_0[35]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13040): bidirectional pin "GPIO_1[0]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[1]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[2]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[3]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[4]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[5]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[6]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[7]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[8]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[9]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[10]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[11]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[12]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[13]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[14]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[15]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[16]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[17]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[18]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[19]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[20]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[21]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[22]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[23]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[24]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[25]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[26]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[27]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[28]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[29]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[30]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[31]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[32]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[33]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[34]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
-    Warning (13040): bidirectional pin "GPIO_1[35]" has no driver File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_0[13]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[14]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[15]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[16]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[17]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[18]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[19]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[20]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[21]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[22]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[23]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[24]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[25]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[26]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[27]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[28]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[29]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[30]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[31]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[32]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[33]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[34]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_0[35]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13040): bidirectional pin "GPIO_1[0]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[1]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[2]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[3]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[4]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[5]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[6]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[7]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[8]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[9]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[10]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[11]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[12]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[13]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[14]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[15]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[16]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[17]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[18]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[19]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[20]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[21]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[22]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[23]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[24]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[25]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[26]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[27]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[28]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[29]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[30]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[31]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[32]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[33]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[34]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
+    Warning (13040): bidirectional pin "GPIO_1[35]" has no driver File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 80
 Warning (13032): The following tri-state nodes are fed by constants
-    Warning (13033): The pin "GPIO_0[9]" is fed by VCC File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13033): The pin "GPIO_0[9]" is fed by VCC File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
 Warning (13009): TRI or OPNDRN buffers permanently enabled
-    Warning (13010): Node "AUD_ADCLRCK~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 68
-    Warning (13010): Node "AUD_BCLK~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 69
-    Warning (13010): Node "AUD_DACLRCK~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 71
-    Warning (13010): Node "FPGA_I2C_SDAT~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 76
-    Warning (13010): Node "GPIO_0[0]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[1]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[2]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[3]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[4]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[5]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[6]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[7]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[8]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[9]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[10]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[11]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
-    Warning (13010): Node "GPIO_0[12]~synth" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "AUD_ADCLRCK~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 68
+    Warning (13010): Node "AUD_BCLK~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 69
+    Warning (13010): Node "AUD_DACLRCK~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 71
+    Warning (13010): Node "FPGA_I2C_SDAT~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 76
+    Warning (13010): Node "GPIO_0[0]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[1]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[2]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[3]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[4]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[5]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[6]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[7]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[8]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[9]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[10]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[11]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
+    Warning (13010): Node "GPIO_0[12]~synth" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 79
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LEDR[8]" is stuck at GND File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 50
-    Warning (13410): Pin "LEDR[9]" is stuck at GND File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 50
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 50
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 50
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
 Info (17016): Found the following redundant logic cells in design
-    Info (17048): Logic cell "ScopeChannelASignal" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 276
-    Info (17048): Logic cell "ScopeChannelBSignal" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 277
-    Info (17048): Logic cell "scope_clk" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 252
+    Info (17048): Logic cell "ScopeChannelASignal" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 276
+    Info (17048): Logic cell "ScopeChannelBSignal" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 277
+    Info (17048): Logic cell "scope_clk" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 252
 Warning (20013): Ignored 571 assignments for entity "DE1_SoC" -- entity does not exist in design
     Warning (20014): Assignment for entity set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[0] -entity DE1_SoC was ignored
     Warning (20014): Assignment for entity set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[10] -entity DE1_SoC was ignored
@@ -4688,63 +4780,63 @@ Info (35024): Successfully connected in-system debug instance "auto_signaltap_0"
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 9 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (35003): Optimize away 49 nodes that do not fanout to OUTPUT or BIDIR pins
-    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst0|ssOut[6]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
-    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst1|ssOut[6]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
-    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst2|ssOut[6]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
-    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst3|ssOut[6]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
-    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst4|ssOut[6]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
-    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst5|ssOut[6]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[8]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[9]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[10]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[11]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[12]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[13]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[14]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[15]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[8]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[9]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[10]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[11]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[12]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[13]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[14]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[15]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[8]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[9]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[10]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[11]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[12]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[13]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[14]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[15]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[8]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[9]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[10]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[11]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[12]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[13]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[14]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[15]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
-    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk|var_clk_div32:Div_Clk|tc_not_reg" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
-    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk|var_clk_div32:Div_Clk|outclk_not" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
-    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Gen_1KHz_clk|var_clk_div32:Div_Clk|tc_not_reg" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
-    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Gen_1KHz_clk|var_clk_div32:Div_Clk|outclk_not" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
-    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Gen_2Hz_clk|var_clk_div32:Div_Clk|tc_not_reg" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
-    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Gen_2Hz_clk|var_clk_div32:Div_Clk|outclk_not" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
+    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst0|ssOut[6]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
+    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst1|ssOut[6]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
+    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst2|ssOut[6]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
+    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst3|ssOut[6]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
+    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst4|ssOut[6]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
+    Info (35004): Node: "SevenSegmentDisplayDecoder:SevenSegmentDisplayDecoder_inst5|ssOut[6]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/SevenSegmentDisplayDecoder.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[8]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[9]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[10]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[11]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[12]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[13]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[14]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|raw_outdata[15]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[8]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[9]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[10]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[11]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[12]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[13]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[14]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_left|outdata[15]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[8]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[9]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[10]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[11]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[12]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[13]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[14]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|raw_outdata[15]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[8]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[9]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[10]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[11]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[12]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[13]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[14]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "to_slow_clk_interface:interface_actual_audio_data_right|outdata[15]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/to_slow_clk_interface.qxp Line: -1
+    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk|var_clk_div32:Div_Clk|tc_not_reg" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
+    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk|var_clk_div32:Div_Clk|outclk_not" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
+    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Gen_1KHz_clk|var_clk_div32:Div_Clk|tc_not_reg" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
+    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Gen_1KHz_clk|var_clk_div32:Div_Clk|outclk_not" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
+    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Gen_2Hz_clk|var_clk_div32:Div_Clk|tc_not_reg" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
+    Info (35004): Node: "Generate_Arbitrary_Divided_Clk32:Gen_2Hz_clk|var_clk_div32:Div_Clk|outclk_not" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/var_clk_div32.qxp Line: -1
 Warning (21074): Design contains 2 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "KEY[3]" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 53
-    Warning (15610): No output dependent on input pin "AUD_ADCDAT" File: D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 67
+    Warning (15610): No output dependent on input pin "KEY[3]" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 53
+    Warning (15610): No output dependent on input pin "AUD_ADCDAT" File: C:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Basic_Organ_Solution.v Line: 67
 Info (21057): Implemented 6966 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 19 input pins
     Info (21059): Implemented 56 output pins
     Info (21060): Implemented 76 bidirectional pins
     Info (21061): Implemented 6506 logic cells
     Info (21064): Implemented 308 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 675 warnings
-    Info: Peak virtual memory: 5018 megabytes
-    Info: Processing ended: Thu May 22 02:04:00 2025
-    Info: Elapsed time: 00:00:24
-    Info: Total CPU time (on all processors): 00:00:40
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 771 warnings
+    Info: Peak virtual memory: 5087 megabytes
+    Info: Processing ended: Thu May 22 16:37:03 2025
+    Info: Elapsed time: 00:01:22
+    Info: Total CPU time (on all processors): 00:01:22
 
 

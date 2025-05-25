@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for Basic_Organ_Solution
-Thu May 22 02:07:14 2025
+Thu May 22 16:42:57 2025
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
 
 
@@ -77,17 +77,17 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 12          ;
+; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 12          ;
 ;                            ;             ;
-; Average used               ; 1.02        ;
+; Average used               ; 1.01        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.6%      ;
-;     Processor 3            ;   0.5%      ;
-;     Processor 4            ;   0.5%      ;
+;     Processor 2            ;   0.5%      ;
+;     Processor 3            ;   0.4%      ;
+;     Processor 4            ;   0.4%      ;
 +----------------------------+-------------+
 
 
@@ -96,7 +96,7 @@ agreement for further details.
 +------------------------+--------+--------------------------+
 ; SDC File Path          ; Status ; Read at                  ;
 +------------------------+--------+--------------------------+
-; timing_constraints.sdc ; OK     ; Thu May 22 02:06:52 2025 ;
+; timing_constraints.sdc ; OK     ; Thu May 22 16:42:30 2025 ;
 +------------------------+--------+--------------------------+
 
 
@@ -964,7 +964,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
-    Info: Processing started: Thu May 22 02:06:50 2025
+    Info: Processing started: Thu May 22 16:42:28 2025
 Info: Command: quartus_sta Basic_Organ_Solution -c Basic_Organ_Solution
 Info: qsta_default_script.tcl version: #1
 Warning (20013): Ignored 571 assignments for entity "DE1_SoC" -- entity does not exist in design
@@ -3021,9 +3021,9 @@ Info (332115): Path #1: Removal slack is 13.275
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 573 warnings
-    Info: Peak virtual memory: 5012 megabytes
-    Info: Processing ended: Thu May 22 02:07:14 2025
-    Info: Elapsed time: 00:00:24
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Peak virtual memory: 5016 megabytes
+    Info: Processing ended: Thu May 22 16:42:57 2025
+    Info: Elapsed time: 00:00:29
+    Info: Total CPU time (on all processors): 00:00:29
 
 
