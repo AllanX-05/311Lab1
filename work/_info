@@ -1,0 +1,267 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/flysh/OneDrive - UBC/CPEN 211
+vdoublesync
+Z0 !s110 1748226361
+!i10b 1
+!s100 :]4kH]XZk__N?:B8:_0<J0
+IURT7k<G?=om@5@5OSTPcZ2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/UBC/CPEN 311/311Lab1
+Z3 w1460577992
+8D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/doublesync.v
+FD:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/doublesync.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1748226361.000000
+!s107 D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/doublesync.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/doublesync.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vGenerate_Arbitrary_Divided_Clk32
+R0
+!i10b 1
+!s100 8=iGlzck0b@NKb_VFN7YH2
+IC;lD^PbbjKBZM1NeL=BVk1
+R1
+R2
+R3
+8D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Generate_Arbitrary_Divided_Clk32.v
+FD:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Generate_Arbitrary_Divided_Clk32.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Generate_Arbitrary_Divided_Clk32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/Generate_Arbitrary_Divided_Clk32.v|
+!i113 1
+R6
+R7
+n@generate_@arbitrary_@divided_@clk32
+vLCD_Scope_Encapsulated_pacoblaze_wrapper
+R0
+!i10b 1
+!s100 FoFm9Xbm^6EPmFgPLScoo1
+I`7bn4EPJ4Cgk_[S8JJ4M82
+R1
+R2
+w1462691686
+8D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LCD_Scope_Encapsulated_pacoblaze_wrapper.v
+FD:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LCD_Scope_Encapsulated_pacoblaze_wrapper.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LCD_Scope_Encapsulated_pacoblaze_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LCD_Scope_Encapsulated_pacoblaze_wrapper.v|
+!i113 1
+R6
+R7
+n@l@c@d_@scope_@encapsulated_pacoblaze_wrapper
+vLedMover
+Z8 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z9 !s110 1748286506
+!i10b 1
+!s100 IhWY]4kEZCXMZ^_kc34c[2
+I5JCFPTM3]NkT5]3:T@i_43
+R1
+!s105 LedMover_sv_unit
+S1
+R2
+w1748218965
+8D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LedMover.sv
+FD:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LedMover.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1748286506.000000
+!s107 D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LedMover.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/LedMover.sv|
+!i113 1
+Z11 o-work work -sv
+R7
+n@led@mover
+vLedMover_tb
+R8
+R9
+!i10b 1
+!s100 U0V7IU3KfB;DaJPFBo[^80
+IOeT5W4]j@@Y`DX?7hz<e<1
+R1
+!s105 LedMover_tb_sv_unit
+S1
+R2
+w1748228717
+8D:\UBC\CPEN 311\311Lab1\LedMover_tb.sv
+FD:\UBC\CPEN 311\311Lab1\LedMover_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:\UBC\CPEN 311\311Lab1\LedMover_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\UBC\CPEN 311\311Lab1\LedMover_tb.sv|
+!i113 1
+R11
+R7
+n@led@mover_tb
+vNDivider
+R8
+R9
+!i10b 1
+!s100 ?9lXWPL;lcA>?IbG7f;Dn0
+IVFU187;kjjUDe[j@A^FH00
+R1
+!s105 NDivider_sv_unit
+S1
+R2
+w1748235116
+8D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/NDivider.sv
+FD:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/NDivider.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/NDivider.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/NDivider.sv|
+!i113 1
+R11
+R7
+n@n@divider
+vNDivider_tb
+R8
+R9
+!i10b 1
+!s100 =IheOOmI]nJC@9d_>45Qk3
+IhQF<4M3h2]eAiFI6Jj78o2
+R1
+!s105 NDivider_tb_sv_unit
+S1
+R2
+w1748241858
+8D:\UBC\CPEN 311\311Lab1\NDivider_tb.sv
+FD:\UBC\CPEN 311\311Lab1\NDivider_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:\UBC\CPEN 311\311Lab1\NDivider_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\UBC\CPEN 311\311Lab1\NDivider_tb.sv|
+!i113 1
+R11
+R7
+n@n@divider_tb
+vscope_capture
+R0
+!i10b 1
+!s100 ?c8@nJ?GNKKPRC43[lbc>3
+I^C`YDL1nlz`MigHV@KXbF0
+R1
+R2
+R3
+8D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/scope_capture.v
+FD:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/scope_capture.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/scope_capture.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/scope_capture.v|
+!i113 1
+R6
+R7
+vToneOrgan
+R8
+R9
+!i10b 1
+!s100 >0zTVE[1jGhEF3hC@Zm>b1
+I=;_N`ANUBN@VLEaM<2;iN0
+R1
+!s105 ToneOrgan_sv_unit
+S1
+R2
+w1748226355
+8D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/ToneOrgan.sv
+FD:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/ToneOrgan.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/ToneOrgan.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/ToneOrgan.sv|
+!i113 1
+R11
+R7
+n@tone@organ
+vToneOrgan_tb
+R8
+R9
+!i10b 1
+!s100 YCk:1@U8K;CDYLH^;LLcj2
+IQTS;YgT;WSZSl;Rblm?B:1
+R1
+!s105 ToneOrgan_tb_sv_unit
+S1
+R2
+w1748286503
+8D:\UBC\CPEN 311\311Lab1\ToneOrgan_tb.sv
+FD:\UBC\CPEN 311\311Lab1\ToneOrgan_tb.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:\UBC\CPEN 311\311Lab1\ToneOrgan_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\UBC\CPEN 311\311Lab1\ToneOrgan_tb.sv|
+!i113 1
+R11
+R7
+n@tone@organ_tb
+vwidereg
+R0
+!i10b 1
+!s100 LUYnXcSA1`YNl5LN[HPDl3
+IN:0>ka^]Nj?67N8IMdzD21
+R1
+R2
+R3
+8D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/widereg.v
+FD:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/widereg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/widereg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UBC/CPEN 311/311Lab1/lab1_template_de1soc/widereg.v|
+!i113 1
+R6
+R7
